@@ -1,0 +1,91 @@
+FID
+This is the layer FID
+0
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 0
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 0" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_0.tif -overwrite
+1
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 1
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 1" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_1.tif -overwrite
+2
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 2
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 2" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_2.tif -overwrite
+3
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 3
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 3" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_3.tif -overwrite
+4
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 4
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 4" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_4.tif -overwrite
+5
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 5
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 5" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_5.tif -overwrite
+6
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 6
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 6" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_6.tif -overwrite
+7
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 7
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 7" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_7.tif -overwrite
+8
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 8
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 8" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_8.tif -overwrite
+9
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 9
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 9" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_9.tif -overwrite
+10
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 10
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 10" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_10.tif -overwrite
+11
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 11
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 11" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_11.tif -overwrite
+12
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 12
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 12" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_12.tif -overwrite
+13
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 13
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 13" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_13.tif -overwrite
+14
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 14
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 14" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_14.tif -overwrite
+15
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 15
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 15" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_15.tif -overwrite
+16
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 16
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 16" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_16.tif -overwrite
+17
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 17
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 17" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_17.tif -overwrite
+18
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 18
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 18" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_18.tif -overwrite
+19
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 19
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 19" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_19.tif -overwrite
+20
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 20
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 20" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_20.tif -overwrite
+21
+Clipping Raster.
+SELECT * FROM parcel WHERE FID = 21
+gdalwarp -s_srs EPSG:4326 -t_srs "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333334 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000.0000000001 +y_0=4000000 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs " -of GTiff -cutline ".\multiple parcels\parcel.shp" -csql "SELECT * FROM parcel WHERE FID = 21" -cblend 4 -crop_to_cutline srtm_17_07.tif .\clipped\clipped_21.tif -overwrite
+Elapsed time: 14.004999876 secs
