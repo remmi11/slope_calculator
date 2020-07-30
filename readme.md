@@ -9,7 +9,7 @@ Download the executable installer from [Python windows downloads](https://www.py
 ## Add the following items to 'path' variable in windows.
 c:\python27;c:\python27\Scripts;c:\python27\Lib;
 
-Solarized dark             |  Solarized Ocean
+Click environmental variables |  Append to existing values
 :-------------------------:|:-------------------------:
 <img src="/images/path1.png" width="300" title="Proj4 link"> | <img src="/images/path2.png" width="300" title="Proj4 link">
 
