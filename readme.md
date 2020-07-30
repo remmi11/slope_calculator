@@ -8,8 +8,11 @@ Download the executable installer from [Python windows downloads](https://www.py
 
 ## Add the following items to 'path' variable in windows.
 c:\python27;c:\python27\Scripts;c:\python27\Lib;
-<img src="/images/path1.png" width="300" title="Proj4 link">
-<img src="/images/path1.png" width="300" title="Proj4 link">
+
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+<img src="/images/path1.png" width="300" title="Proj4 link"> | <img src="/images/path2.png" width="300" title="Proj4 link">
+
 
 ## Install gdal from [GIS Internals](https://www.gisinternals.com/query.html?content=filelist&file=release-1911-x64-gdal-2-4-4-mapserver-7-4-3.zip).
 <img src="/images/gdal1.png" width="300" title="Proj4 link">
