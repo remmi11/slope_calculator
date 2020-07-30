@@ -9,9 +9,8 @@ import os
 import time
 import sys
 import traceback
-from osgeo import ogr
-
 import gdal
+
 # Allow for verbose exception reporting
 gdal.UseExceptions()
 
